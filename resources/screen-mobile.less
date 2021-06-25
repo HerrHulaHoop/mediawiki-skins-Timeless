@@ -27,7 +27,8 @@
 #mw-header-nav-hack,
 #page-tools h2,
 #other-languages h2,
-#p-logo {
+#p-logo,
+#p-logo-text {
 	display: none;
 }
 
@@ -140,17 +141,13 @@
 	background-image: url( images/gear-large-grey.svg );
 }
 
-/* Logo */
+/* Search bar */
 
-#p-logo-text {
+#p-search {
 	position: absolute;
-	top: 0.75em;
+	top: 1em;
 	left: @content-padding + 4em;
-	text-align: left;
-
-	a {
-		padding-left: 0;
-	}
+	right: @content-padding + 8em;
 }
 
 /* Page actions */
